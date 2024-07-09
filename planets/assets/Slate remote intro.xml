@@ -1,0 +1,78 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>Slate</NameField>
+
+<DialogueNode>
+		<Name>Slate shelf intro</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey, hold up a sec!</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+   			 <DialogueOption>
+				<Text>What is it?</Text>
+				<DialogueTarget>Slate_SH_1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+      			<RequiredPersistentCondition>COMPLETED_SHIPLOG_TUTORIAL</RequiredPersistentCondition>
+				<Text>Use the shiplog to track places I've been to. Got it! Thank you! Seeya!</Text>
+				<DialogueTarget>Slate_SH_2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>Slate shelf intro Loop3On</Name>
+		<EntryCondition>LOOP_COUNT_GOE_3</EntryCondition>
+		<Dialogue>
+			<Page>Hey, hold up a sec!</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+   			 <DialogueOption>
+				<Text>What is it?</Text>
+				<DialogueTarget>Slate_SH_1</DialogueTarget>
+			</DialogueOption>
+    <DialogueOption>
+				<Text>Yeah yeah yeah, I already know about the launch codes.</Text>
+				<DialogueTarget>Slate_SH_2</DialogueTarget>
+	</DialogueOption>
+			<DialogueOption>
+      			<RequiredPersistentCondition>COMPLETED_SHIPLOG_TUTORIAL</RequiredPersistentCondition>
+				<Text>Use the shiplog to track places I've been to. Got it! Thank you! Seeya!</Text>
+				<DialogueTarget>Slate_SH_2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>Slate_SH_1</Name>
+		 <SetPersistentCondition>SH_Intro</SetPersistentCondition>
+		<Dialogue>
+			<Page>Oh, just a heads up. I added some shelves inside the ship you can use to stow away anything cool you find on your travels.</Page>
+			<Page>The other travelers told me they "didn't feel safe" just leaving stuff around the ship's floor while the ship was flying at high speed through space.</Page>
+			<Page>So yeah. Shelves!</Page>
+			
+			<Page>Just uh, don't go overboard and start hoarding everything you see. The ship's cluttered enough as is.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	
+	<DialogueNode>
+		<Name>Slate_SH_2</Name>
+		 <SetPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</SetPersistentCondition>
+		<Dialogue>
+		<Page>Uh, no. What are you talking about?</Page>
+			<Page>I was gonna ask if you were gonna say goodbye to everyone before you take off. The whole village's gonna miss you, you know?</Page>
+			<Page>If nothing else, at least say bye to the little hatchlings. All of 'em always have something to ask or say to the new astronaut before they go.</Page>
+			<Page>Go humor 'em, just in case this is last they see of you for a while, y'know?</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+
+
+</DialogueTree>

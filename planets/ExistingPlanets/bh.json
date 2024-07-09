@@ -1,0 +1,24 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "BrittleHollow",
+	"removeChildren":
+			[
+				"Sector_BH/Sector Northern Gravcanonia/Fragment 55_NorthernGravcanonia/Interactibles_55_NorthernGravcanonia/Prefab_NOM_Scroll_egg"
+			],
+	"Props": {
+		"details": [
+			{
+				"rename":"Scroll_egg",
+				"path": "BrittleHollow_Body/Sector_BH/Sector Northern Gravcanonia/Fragment 55_NorthernGravcanonia/Interactibles_55_NorthernGravcanonia/Prefab_NOM_Scroll_egg/",
+				"position": {"x":-247.97,"y": 75.02,"z": -168.604},
+				"rotation": {"x":322.298,"y": 198.6182,"z": 36.898},
+				"parentPath": "Sector_BH/Sector Northern Gravcanonia/Fragment 55_NorthernGravcanonia/Interactibles_55_NorthernGravcanonia",
+				"isRelativeToParent": true,
+				"keepLoaded": true
+			}
+		
+		
+		]
+	}
+}
