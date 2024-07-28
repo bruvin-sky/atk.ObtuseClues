@@ -1,19 +1,19 @@
 # ABOUT
  
-For clarity, the mod's title refers to *obtuse puzzles*, not players!!
-
+The mod's title refers to obtuse *puzzles*!
+![Screenshot 2024-07-27 161551](https://github.com/user-attachments/assets/d1ad78a6-6a2b-4484-93d3-187474affcc0)
 
 **Clues for The Obtuse** adds a handful of new clues and details into the world to try to smooth out puzzles that I've seen and read about often giving players trouble, and that I personally felt could have used a bit more setup.
-The clues added aim to be subtle and set up obscure parts of puzzles, not give the puzzle away completely.
+The clues added aim to be subtle and help set up obscure parts of puzzles, not give the puzzle away completely.
 
 This mod was made out of boredom, but also from a silly perfectionist desire to smooth out a few rough spots I noticed in an incredible game.
 
-NOTE: The mod does not currently add ship logs, because I'm tired and procrastinating enough work, and New Horizons is unable to add logs to existing logs
+NOTE: The mod does not currently add ship logs, because I've procrastinated enough real life work, and New Horizons is unable to add or make new children logs to existing logs
 
 
 # CHANGELOG
 
-Contains vague, but still mildly spoilery changelog below for the basegame and DLC! Do not read before completing the game!
+Contains vague, but still mildly spoilery changelog below for the basegame and DLC - Do not read before completing the game!
 
 <details>
   <summary>Basegame changes</summary>
@@ -28,6 +28,7 @@ Contains vague, but still mildly spoilery changelog below for the basegame and D
   <summary>DLC changes</summary>
 * Added light to a tunnel opposite a rotted bridge
 * Added lamps along a dark rear path
+* Added a fireplace
 * Changed the arrangement of some reels
 * Added a light source to make some footprints easier to see
 </details>
