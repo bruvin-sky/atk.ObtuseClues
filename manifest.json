@@ -1,8 +1,10 @@
 {
-  "filename": "NewHorizonsConfig.dll",
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "ObtuseClues.dll",
   "author": "atk",
-  "name": "Ship Hoarder",
-  "uniqueName": "atk.Hoarder",
-  "version": "1.0",
-  "owmlVersion": "2.11.1"
+  "name": "Clues for The Obtuse",
+  "uniqueName": "atk.ObtuseClues",
+  "version": "0.1.0",
+  "owmlVersion": "2.11.1",
+  "dependencies": ["xen.NewHorizons"]
 }

@@ -1,0 +1,24 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "DarkBramble",
+	"removeChildren":
+		[
+		
+		],
+
+
+	"Props": {
+		"details": [
+		
+		],
+		"dialogue": [
+			{
+				"pathToAnimController": "Sector_DB/Interactables_DB/Prefab_HEA_Recorder",	
+				"xmlFile": "planets/ExistingPlanets/translatortext/feldspar addon.xml",
+				"position": {"x":0,"y":0,"z":0},
+				"isRelativeToParent": true
+			}
+		]
+	}
+}

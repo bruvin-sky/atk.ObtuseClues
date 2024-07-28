@@ -1,24 +1,47 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 
-	"name": "BrittleHollow",
+	"name": "Brittle Hollow",
 	"removeChildren":
-			[
-				"Sector_BH/Sector Northern Gravcanonia/Fragment 55_NorthernGravcanonia/Interactibles_55_NorthernGravcanonia/Prefab_NOM_Scroll_egg"
-			],
+		[
+		"Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Interactables_BlackHoleForge/Prefab_NOM_Scroll"
+		],
+
+
 	"Props": {
 		"details": [
+		
+		],
+		"translatorText": [
 			{
-				"rename":"Scroll_egg",
-				"path": "BrittleHollow_Body/Sector_BH/Sector Northern Gravcanonia/Fragment 55_NorthernGravcanonia/Interactibles_55_NorthernGravcanonia/Prefab_NOM_Scroll_egg/",
-				"position": {"x":-247.97,"y": 75.02,"z": -168.604},
-				"rotation": {"x":322.298,"y": 198.6182,"z": 36.898},
-				"parentPath": "Sector_BH/Sector Northern Gravcanonia/Fragment 55_NorthernGravcanonia/Interactibles_55_NorthernGravcanonia",
+				"rename":"BHF scroll rep",
+				"position": {"x": -12.164,"y": 70.226,"z": 0.011},
+				"rotation":{"x": 3.9617, "y": 90.6779,"z": 1.6701},
 				"isRelativeToParent": true,
-				"keepLoaded": true
+				"type":"scroll",
+				"parentPath": "Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Interactables_BlackHoleForge",
+				"seed":1,
+				"xmlFile": "planets/ExistingPlanets/translatortext/bhf.xml",
+				"arcInfo": [
+					{},
+					{},
+					{},
+					{},
+					{},
+					{"position": {"x":0.2103,"y": 2.3545}, "zRotation":296.0029, "mirror": false},
+					{"position": {"x":1.6272,"y": 1.7895}, "zRotation": 240.6731, "mirror": false},
+					{"position": {"x":1.9738,"y": 0.5387},"zRotation": 188.6192,"mirror": false}
+				]
+			},
+			
+			{
+				"rename":"BH warp recorder",
+				"position": {"x": -13.9536,"y": 282.1621,"z": 100.7404},
+				"rotation": {"x": 342.0767,"y": 153.4212,"z": 6.7157},
+				"isRelativeToParent": true,
+				"type":"recorder",
+				"xmlFile": "planets/ExistingPlanets/translatortext/bh warp.xml"
 			}
-		
-		
 		]
 	}
 }

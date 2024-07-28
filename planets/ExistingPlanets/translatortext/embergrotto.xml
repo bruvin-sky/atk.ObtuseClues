@@ -1,0 +1,44 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		POKE: Use caution! There are patches of cacti buried under the sand here!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB />
+		<Text>
+		POKE: I hurried here as soon as sand began to recede from <![CDATA[<color=lightblue>Ember Twin</color>]]> to visit the <![CDATA[<color=orange>High Energy Lab</color>]]> - but I did not account for the cacti in this dark cavern puncturing my suit!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		POKE: Perhaps I should simply be patient.. It is terrifying, not knowing if there are cacti buried under the sand that may emerge at any time!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		PYE: Oh, Poke.. If you should ever visit <![CDATA[<color=lightblue>Ember Twin</color>]]> again while the sand is receding, try exercising swiftness - the thick layer of sand should allow you to walk over the cacti!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationA />
+		<Text>
+		POKE: My gratitude for your advice, Pye.. But may I suggest exercising practicality instead, and relocating these plants for the well-being of your visitors?
+		</Text>
+	</TextBlock>
+	
+</NomaiObject>

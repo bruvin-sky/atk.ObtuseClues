@@ -1,0 +1,57 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		YARROW: We're here at last!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB />
+		<Text>
+		YARROW: Oh, Clary, that was <![CDATA[<i>dreadful!</i>]]> I am immensely relieved to be rooted firmly by gravity again..
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		YARROW: I am deeply impressed by the fortitude of the Nomai living on <![CDATA[<color=lightblue>Brittle Hollow..</color>]]> The possibility of drifting endlessly in zero-gravity after falling into the black hole would terrify me daily!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		CLARY: Oh, everyone begins their time on Brittle Hollow quite terrified of that possibility.. I'm sure you'll become accustomed to it with time as well!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationB />
+		<Text>
+		CLARY: Still, it means a lot that you were willing to face your fears to join me here, Yarrow..
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationA />
+		<Text>
+		CLARY: You must be terribly eager to learn about the warp towers! I'm overjoyed to have found a friend as passionate about warp technology as I am!
+		</Text>
+	</TextBlock>
+
+</NomaiObject>

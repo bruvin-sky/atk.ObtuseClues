@@ -1,0 +1,60 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+		<TextBlock>
+		<ID>1</ID>
+		<Text>POKE: Of note: Yarrow believes he spotted a flaw in the warp tower designs: namely, that one of the warp towers on <![CDATA[<color=lightblue>Ash Twin</color>]]> will never activate, because its warp receiver will never align overhead.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>POKE: Does your romantic interest think a warp tower’s alignment point is its <![CDATA[<i>]]>receiver<![CDATA[</i>]]>? Does he not know that a warp tower always aligns with the center of its corresponding astral body?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>CLARY: That isn’t an unreasonable belief, given the receiver <![CDATA[<i>]]>does<![CDATA[</i>]]> have to be located on (or in close orbit around) the relevant astral body.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>CLARY: I seem to recall that was <![CDATA[<i>]]>your<![CDATA[</i>]]> understanding of warp technology, at first.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>3</ParentID>
+		<Text>CLARY: No, Yarrow understands the distinction. He likely doesn’t realize the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> are so close together they function as a single astral body, with a shared alignment point in between them.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>YARROW: How fascinating! Does this mean that if a Nomai were to wait on both warp transmitters, both warp towers would activate at the same time?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>CLARY: I'm not sure, Yarrow! Should we travel to <![CDATA[<color=lightblue>Ash Twin</color>]]> to investigate together sometime?</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>POKE: Clary, we still have work to do! Yarrow, please seek anyone else, or use any object capable of warping to test your hypothesis instead!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_BLACK_HOLE_FORGE_X4</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_BLACK_HOLE_FORGE_X5</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_BLACK_HOLE_FORGE_X6</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+
+</NomaiObject>

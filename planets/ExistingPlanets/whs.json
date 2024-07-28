@@ -1,0 +1,25 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "WhiteholeStation",
+	"removeChildren":
+		[
+		
+		],
+
+
+	"Props": {
+		"details": [
+		
+		],
+		"translatorText": [
+			{
+				"position": {"x":-2.7057,"y": -1.1884,"z": -24.6431},
+				"rotation": {"x":322.9049,"y": 270,"z": 270},
+				"isRelativeToParent": true,
+				"type":"recorder",
+				"xmlFile": "planets/ExistingPlanets/translatortext/whs date.xml"
+			}
+		]
+	}
+}

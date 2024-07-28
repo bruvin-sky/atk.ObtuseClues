@@ -1,0 +1,31 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "Ember Twin",
+	"removeChildren":
+		[
+		
+		],
+
+
+	"Props": {
+		"details": [
+			{
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Lighting_TimeLoopExperiment/FillLight_NOM_Text/",
+				"position": {"x":-3.8967,"y": -31.245,"z": -31.9861},
+				"rotation": {"x":16.4179,"y": 281.516,"z": 36.5511},
+				"isRelativeToParent": true
+			}
+		],
+		"translatorText": [
+			{
+				"position": {"x": -3.8733,"y": -31.2276,"z": -31.6221},
+				"rotation": {"x":309.5948,"y": 212.3857,"z": 144.1034},
+				"isRelativeToParent": true,
+				"type":"wall",
+				"seed":1,
+				"xmlFile": "planets/ExistingPlanets/translatortext/embergrotto.xml"
+			}
+		]
+	}
+}

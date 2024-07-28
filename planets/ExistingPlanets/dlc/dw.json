@@ -1,0 +1,181 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "Dreamworld",
+	"removeChildren": [
+		"Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2/Interactibles_SecretLibrary_2/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_03/SlideSocket_03",
+		"Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2/Interactibles_SecretLibrary_2/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_04/SlideSocket_02"
+	],
+
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "OW_PR_CampfireAmbience",
+				"position": {"x": 0,"y": 0,"z": 0},
+				"isRelativeToParent": true,
+				"layer": 1,
+				"priority": 5,
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_2/Structure_DreamZone_2/RaftDockCandles/z2 fireplace",
+				"radius": 5
+			},
+			{
+				"audio": "OW_PR_CampfireAmbience",
+				"position": {"x": 0,"y": 0,"z": 0},
+				"isRelativeToParent": true,
+				"layer": 1,
+				"priority": 4,
+				"volume": 0.4,
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_2/Structure_DreamZone_2/RaftDockCandles/z2 fireplace",
+				"radius": 18
+			}
+		],
+		"hazardVolumes": [
+			{
+				"type":"fire",
+				"position": {"x": 0.3237,"y": 1.649,"z": -1.3073},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_2/Structure_DreamZone_2/RaftDockCandles/z2 fireplace",
+				"radius": 3
+			}
+		]
+	},
+	"Props": {
+		"details": [
+		
+			{
+				"rename":"z2 fireplace",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Structures_DreamZone_1/Party_House/Interactibles_PartyHouse/Prefab_IP_LodgeFire/",
+				"position": {"x": -7.0116,"y": 1.2,"z": -20.7856},
+				"rotation": {"x":0,"y": 91.5115,"z": 0},
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_2/Structure_DreamZone_2/RaftDockCandles",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"z2 fireplace sim",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Structure_DreamZone_2/DreamFireHouse_2/Interactibles_DreamFireHouse_2/Prefab_IP_DreamArrivalPoint_Zone2/Effects_IP_SIM_DreamFire",
+				"position": {"x": -0.6055,"y": -0.1927,"z": -0.2305},
+				"rotation": {"x":0,"y": 0.8524,"z": 0},
+				"stretch": {"x": 3.9764,"y": 1,"z": 2.2818},
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_2/Structure_DreamZone_2/RaftDockCandles/z2 fireplace",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"simfire 1",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Structure_DreamZone_2/DreamFireHouse_2/Interactibles_DreamFireHouse_2/Prefab_IP_DreamArrivalPoint_Zone2/Effects_IP_SIM_DreamFire/Effects_IP_SIM_DreamfireFlames",
+			"position": {"x": -0.923,"y": 0.2964,"z": 0.0352},
+				"rotation": {"x": 357.3694,"y": 65.0282,"z": 13.5767},
+				"stretch": {"x": 1,"y": 2.2764,"z": 1},
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_2/Structure_DreamZone_2/RaftDockCandles/z2 fireplace",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"simfire 2",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Structure_DreamZone_2/DreamFireHouse_2/Interactibles_DreamFireHouse_2/Prefab_IP_DreamArrivalPoint_Zone2/Effects_IP_SIM_DreamFire/Effects_IP_SIM_DreamfireFlames",
+				"position": {"x": 0.0173,"y": 0.4537,"z": -0.0916},
+				"rotation": {"x": 11.8625,"y": 353.648,"z": 345.2003},
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_2/Structure_DreamZone_2/RaftDockCandles/z2 fireplace",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"simfire 3",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Structure_DreamZone_2/DreamFireHouse_2/Interactibles_DreamFireHouse_2/Prefab_IP_DreamArrivalPoint_Zone2/Effects_IP_SIM_DreamFire/Effects_IP_SIM_DreamfireFlames",
+				"position": {"x": -0.4439,"y": 0.544,"z": -0.7195},
+				"rotation": {"x": 10.5385,"y": 17.0414,"z": 11.5211},
+				"stretch": {"x": 1,"y": 2.6982,"z": 1},
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_2/Structure_DreamZone_2/RaftDockCandles/z2 fireplace",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"simfire 4",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Structure_DreamZone_2/DreamFireHouse_2/Interactibles_DreamFireHouse_2/Prefab_IP_DreamArrivalPoint_Zone2/Effects_IP_SIM_DreamFire/Effects_IP_SIM_DreamfireFlames",
+				"position": {"x": -1.5008,"y": 0.2582,"z": -0.1585},
+				"rotation": {"x": 12.4587,"y": 6.4613,"z": 9.4059},
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_2/Structure_DreamZone_2/RaftDockCandles/z2 fireplace",
+				"isRelativeToParent": true
+			},
+		
+
+		
+			{
+				"rename":"z2 EYE reel",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2/Interactibles_SecretLibrary_2/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_04/SlideSocket_02/",
+				"position": {"x": -0.74,"y": 0,"z": 0},
+				"rotation": {"x":0,"y": 0,"z": 270},
+				"parentPath": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2/Interactibles_SecretLibrary_2/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_03",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"z2 dreamreel moved",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2/Interactibles_SecretLibrary_2/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_03/SlideSocket_03/",
+				"position": {"x": 0,"y": 0,"z": 0},
+				"rotation": {"x":0,"y": 0,"z": 270},
+				"parentPath": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2/Interactibles_SecretLibrary_2/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_04",
+				"isRelativeToParent": true
+			},
+			
+
+
+
+			{
+				"rename":"vision torch glow",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Interactibles_Underground/SarcophagusController/SarcophagusInterface/FillLight_Text/",
+				"position": {"x": 0.373,"y": 0.8417,"z": 0.8281},
+				"rotation": {"x":0,"y": 0,"z": 0},
+				"parentPath": "Sector_DreamWorld/Sector_Underground/Interactibles_Underground/Prefab_IP_VisionTorchProjector/",
+				"isRelativeToParent": true
+			},
+
+
+
+
+			{
+				"rename":"z3 elevator lantern",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_3/Lights_DreamZone_3/Prefab_IP_Candle_CoveredGround/",
+				"position": {"x": -32.1838,"y": 81.04,"z": 39.2542},
+				"rotation": {"x":0,"y": 46.7614,"z": 0},
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_3",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_3/Lights_DreamZone_3/Prefab_IP_Candle_CoveredGround/",
+				"position": {"x": -43.1908,"y": 81.0315,"z": 45.60332},
+				"rotation": {"x":0.0506,"y": 227.3255,"z": 0.5314},
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_3",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_3/Lights_DreamZone_3/Prefab_IP_Candle_CoveredGround/",
+				"position": {"x": -45.4435,"y": 81.0179,"z": 39.3986},
+				"rotation": {"x":358.8224,"y": 354.0222,"z": 356.9879},
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_3",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_3/Lights_DreamZone_3/Prefab_IP_Candle_CoveredGround/",
+				"position": {"x": -46.6417,"y": 81.0427,"z": 32.0286},
+				"rotation": {"x": 0.0145,"y": 206.3727,"z": 0.0103},
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_3",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_3/Lights_DreamZone_3/Prefab_IP_Candle_CoveredGround/",
+				"position": {"x": -45.3416,"y": 81.033,"z": 25.3519},
+				"rotation": {"x": 0.1206,"y": 336.8025,"z": 359.0494},
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_3",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_3/Lights_DreamZone_3/Prefab_IP_Candle_CoveredGround/",
+				"position": {"x": -30.8787,"y": 81.15,"z": 14.8655},
+				"rotation": {"x":0,"y": 284.7301,"z": 0},
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_3",
+				"isRelativeToParent": true
+			}
+
+
+
+
+
+		]
+	}
+}

@@ -1,0 +1,77 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "Ringworld",
+	"removeChildren":
+		[
+			"Sector_RingInterior/Sector_Zone3/Sector_CanyonObvious/Structures_CanyonObvious/AbandonedTemple_Zone3/Interactables_AbandonedTemple_Zone3/TunnelEntrance/DarknessPlane",
+
+			"Sector_RingInterior/dumb torch/Flame"
+		],
+
+
+	"Props": {
+		"slideShows": [
+			{
+				"rename":"dumb torch",
+				"type": "standingVisionTorch",
+				"position": {"x": -151.5534,"y": -53.8597,"z": -251.3232},
+				"rotation": {"x": 27.6457,"y": 133.7187,"z": 129.1848},
+				"parentPath": "Sector_RingInterior",
+				"isRelativeToParent": true,
+				"slides": [
+					{
+						"backdropAudio": "PartyHouse_Vocals",
+						"imagePath": "planets/ExistingPlanets/dlc/assets/1.png"
+					},
+					{
+						"imagePath": "planets/ExistingPlanets/dlc/assets/2.png"
+					},
+					{
+						"imagePath": "planets/ExistingPlanets/dlc/assets/3.png"
+					},
+					{
+						"imagePath": "planets/ExistingPlanets/dlc/assets/1.png"
+					},
+					{
+						"imagePath": "planets/ExistingPlanets/dlc/assets/2.png"
+					},
+					{
+						"imagePath": "planets/ExistingPlanets/dlc/assets/3.png"
+					},
+					{
+						"imagePath": "planets/ExistingPlanets/dlc/assets/1.png"
+					},
+					{
+						"imagePath": "planets/ExistingPlanets/dlc/assets/2.png"
+					},
+					{
+						"imagePath": "planets/ExistingPlanets/dlc/assets/3.png"
+					}
+				]
+			}
+		],
+		"details": [
+			
+		
+			{
+				"rename":"drown torch flame",
+				"path": "RingWorld_Body/Sector_RingWorld/Sector_SecretEntrance/Interactibles_SecretEntrance/Experiment_3/VisionTorchApparatus/VisionTorchRoot/Prefab_IP_VisionTorchProjector/Flame",
+				"position": {"x": -87.7749,"y": -5.3511,"z": -79.7595},
+				"rotation": {"x": 10.4345,"y": 284.9128,"z": 33.6493},
+				"parentPath": "Sector_RingInterior/Sector_Zone1/Structures_Zone1/RaftHouse_ArrivalPatio_Zone1/Destructables_RaftHouse_ArrivalPatio_Zone1/",
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"Gorge tunnel light",
+				"path": "Probe_Body/Lantern",
+				"position": {"x": 178.4173,"y": -7.4882,"z": 172.6521},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_RingInterior",
+				"isRelativeToParent": true
+			}
+		]
+	}
+}
