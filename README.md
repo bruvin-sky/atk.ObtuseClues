@@ -18,6 +18,7 @@ Contains vague, but still mildly spoilery changelog below for the basegame and D
 
 <details>
   <summary>Basegame changes</summary>
+
 * Added a recording to the White Hole Station
 
 * Added a recording to Brittle Hollow's north pole
@@ -31,9 +32,14 @@ Contains vague, but still mildly spoilery changelog below for the basegame and D
 
 <details>
   <summary>DLC changes</summary>
+ 
 * Added light to a tunnel opposite a rotted bridge
+  
 * Added lamps along a dark rear path
+  
 * Added a fireplace
+  
 * Changed the arrangement of some reels
+  
 * Added a light source to make some footprints easier to see
 </details>
