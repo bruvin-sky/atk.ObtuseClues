@@ -14,7 +14,7 @@ NOTE 2: The mod does not currently add ship logs, because I've procrastinated en
 
 # CHANGELOG
 
-This changelog contains intentionally vague, but still mild spoilers below for the basegame and DLC - Do not expand the tabs before completing the game!
+The tabs below contain the changelog for the basegame and DLC changes respectively. They are intentionally vague, but are still mild spoilers - you are recommended to not read them before completing the game!
 
 <details>
   <summary>Basegame changes</summary>
@@ -38,8 +38,10 @@ This changelog contains intentionally vague, but still mild spoilers below for t
 * Added lamps along a dark rear path
   
 * Added a fireplace
+
+* Added a torch somewhere
   
-* Changed the arrangement of some reels
+* Changed the shelf arrangement of some reels
   
 * Added a light source to make some footprints easier to see
 </details>
