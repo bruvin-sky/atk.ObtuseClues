@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		YARROW: I shall be returning to <![CDATA[<color=lightblue>Ash Twin</color>]]> soon, my friends. If it is ready, I would love to help deliver this new shipment of ore along the way!
+		YARROW: Friends, I shall be returning to <![CDATA[<color=lightblue>Ash Twin</color>]]> soon. If the next shipment is ready, I would love to help deliver the new shipment of ore along the way!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		 COLEUS: The ore has to be sent to the <![CDATA[<color=orange>Volcanic Testing Site</color>]]> to be processed first, before it is ready to be used.
+		 COLEUS: However, we won't be sending the ore we have just mined to <![CDATA[<color=lightblue>Ash Twin</color>]]> just yet.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,15 +29,25 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		YARROW: I see! In that case, I believe Root is preparing to return to <![CDATA[<color=lightblue>Brittle Hollow</color>]]> soon. Should I inquire if he could assist in delivering the ore to the <![CDATA[<color=orange>Volcanic Testing Site?</color>]]>
+		COLEUS: You see, the ore here has to be sent to the <![CDATA[<color=orange>Volcanic Testing Site</color>]]> to be processed first, before it is ready to be used.
 		</Text>
 	</TextBlock>
-	<TextBlock>
+
+		<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
+		<LocationB />
+		<Text>
+		YARROW: In that case, Root is planning to return to <![CDATA[<color=lightblue>Brittle Hollow</color>]]> soon! Perhaps he will be able to assist in the delivery, then.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		COLEUS: That would be a great help! You have my deepest gratitude, Yarrow.
+		COLEUS: I'll be sure to inquire for his assistance before he takes off! You have my deepest gratitude, Yarrow.
 		</Text>
 	</TextBlock>
 </NomaiObject>

@@ -40,10 +40,10 @@ The tabs below contain the changelog for the basegame and DLC changes respective
 * Added light to a tunnel opposite a rotted bridge
   
 * Added lamps along a dark rear path
-  
-* Added a fireplace somewhere
 
 * Added a vision somewhere
+
+* Added post-flood debris to a tower
   
 * Changed the shelf arrangement of some reels
   

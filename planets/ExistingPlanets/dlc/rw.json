@@ -53,7 +53,71 @@
 		],
 		"details": [
 			
-		
+			{
+				"rename":"blocker particles test",
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Effects_Zone2/EntryGroup/LighthouseIsland/Effects_IP_SplinterImpact/",
+				"position": {"x": -252.4509,"y": 50.1693,"z": 97.6441},
+				"rotation": {"x": 17.6018,"y": 58.2766,"z": 86.4674},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"blocker2",
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Structures_Zone2/HouseConnector2_Zone2/Geo_HouseConnector2_Zone2/Bridge_HouseConnector2_Intact/Bridge_IP_RWZ2_Connector1ToConnector2/",
+				"position": {"x": -1.3537,"y": -4.2343,"z": -6.3441},
+				"rotation": {"x": 29.3146,"y": 149.9831,"z": 35.6038},
+				"stretch": {"x":0.3,"y":1,"z":0.3},
+				"removeChildren": ["Railing","Railing_Col"],
+				"parentPath": "Sector_RingInterior/Sector_Zone2/Sector_DreamFireLighthouse_Zone2_AnimRoot/Geo_Lighthouse_Exterior_Zone2/Lighthouse_StiltTops",
+				"keepLoaded": true,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"blocker3",
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Structures_Zone2/HouseConnector2_Zone2/Geo_HouseConnector2_Zone2/Bridge_HouseConnector2_Intact/Bridge_IP_RWZ2_Connector1ToConnector2/",
+				"position": {"x": -1.8206,"y": -7.4272,"z": -9.248},
+				"rotation": {"x": 329.2107,"y": 115.3171,"z": 354.4866},
+				"stretch": {"x":0.3,"y":1,"z":0.3},
+				"removeChildren": ["Railing","Railing_Col"],
+				"parentPath": "Sector_RingInterior/Sector_Zone2/Sector_DreamFireLighthouse_Zone2_AnimRoot/Geo_Lighthouse_Exterior_Zone2/Lighthouse_StiltTops",
+				"keepLoaded": true,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"blocker4",
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Structures_Zone2/HouseConnector2_Zone2/Geo_HouseConnector2_Zone2/Bridge_HouseConnector2_Intact/Bridge_IP_RWZ2_Connector1ToConnector2/",
+				"position": {"x": -0.575,"y": -5.095,"z": -7.2691},
+				"rotation": {"x": 357.4235,"y": 120.5456,"z": 314.0587},
+				"stretch": {"x":0.3,"y":1,"z":0.3},
+				"removeChildren": ["Railing","Railing_Col"],
+				"parentPath": "Sector_RingInterior/Sector_Zone2/Sector_DreamFireLighthouse_Zone2_AnimRoot/Geo_Lighthouse_Exterior_Zone2/Lighthouse_StiltTops",
+				"keepLoaded": true,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"blocker5",
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Structures_Zone2/HouseConnector2_Zone2/Geo_HouseConnector2_Zone2/Bridge_HouseConnector2_Intact/Bridge_IP_RWZ2_Connector1ToConnector2/",
+				"position": {"x": 0.6422 ,"y": -4.4944,"z": -7.5881},
+				"rotation": {"x": 356.3693,"y": 101.1614,"z": 315.1183},
+				"stretch": {"x":0.3,"y":1,"z":0.3},
+				"removeChildren": ["Railing","Railing_Col"],
+				"parentPath": "Sector_RingInterior/Sector_Zone2/Sector_DreamFireLighthouse_Zone2_AnimRoot/Geo_Lighthouse_Exterior_Zone2/Lighthouse_StiltTops",
+				"keepLoaded": true,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"blocker6",
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Structures_Zone2/HouseConnector2_Zone2/Geo_HouseConnector2_Zone2/Bridge_HouseConnector2_Intact/Bridge_IP_RWZ2_Connector1ToConnector2/",
+				"position": {"x": 2.0767,"y": -3.7841,"z": -6.2112},
+				"rotation": {"x": 349.0927,"y": 101.5526,"z": 309.9637},
+				"stretch": {"x":0.3,"y":1,"z":0.3},
+				"removeChildren": ["Railing","Railing_Col"],
+				"parentPath": "Sector_RingInterior/Sector_Zone2/Sector_DreamFireLighthouse_Zone2_AnimRoot/Geo_Lighthouse_Exterior_Zone2/Lighthouse_StiltTops",
+				"keepLoaded": true,
+				"isRelativeToParent": true
+			},
+
+
+			
 			{
 				"rename":"drown torch flame",
 				"path": "RingWorld_Body/Sector_RingWorld/Sector_SecretEntrance/Interactibles_SecretEntrance/Experiment_3/VisionTorchApparatus/VisionTorchRoot/Prefab_IP_VisionTorchProjector/Flame",
