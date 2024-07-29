@@ -15,8 +15,8 @@
 			{
 				"rename":"dumb torch",
 				"type": "standingVisionTorch",
-				"position": {"x": -151.5534,"y": -53.8597,"z": -251.3232},
-				"rotation": {"x": 27.6457,"y": 133.7187,"z": 129.1848},
+				"position": {"x": -151.6225,"y": -53.7906,"z": -251.2868},
+				"rotation": {"x": 16.4532,"y": 133.7187,"z": 129.1848},
 				"parentPath": "Sector_RingInterior",
 				"isRelativeToParent": true,
 				"slides": [
@@ -57,8 +57,8 @@
 			{
 				"rename":"drown torch flame",
 				"path": "RingWorld_Body/Sector_RingWorld/Sector_SecretEntrance/Interactibles_SecretEntrance/Experiment_3/VisionTorchApparatus/VisionTorchRoot/Prefab_IP_VisionTorchProjector/Flame",
-				"position": {"x": -87.7749,"y": -5.3511,"z": -79.7595},
-				"rotation": {"x": 10.4345,"y": 284.9128,"z": 33.6493},
+				"position": {"x": -87.8643,"y": -5.3966,"z": -79.6895},
+				"rotation": {"x": 11.3079,"y": 296.2758,"z": 35.7993},
 				"parentPath": "Sector_RingInterior/Sector_Zone1/Structures_Zone1/RaftHouse_ArrivalPatio_Zone1/Destructables_RaftHouse_ArrivalPatio_Zone1/",
 				"isRelativeToParent": true
 			},

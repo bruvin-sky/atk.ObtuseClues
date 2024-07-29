@@ -1,0 +1,30 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>Esker22222</NameField>
+
+<DialogueNode>
+		<Name>OtherTravelers</Name>
+		
+			<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Well.. I'm here now, and I'm a traveler!</Text>
+				<DialogueTarget>UGH</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	
+</DialogueNode>
+
+<DialogueNode>
+		<Name>UGH</Name>
+		<Dialogue>
+			<Page>Hah, I guess that's true. Welcome to the space program, hatchling!</Page>
+			<Page>By the way: Slate radioed me to boast about some feature they added to the new ships to help keep track of places they've been to before.</Page>
+			<Page>Apparently you can mark anywhere you've visited before on your map from the ship log? It was a lot of big words like that.</Page>
+			<Page>But uh, if you ever feel like it.. <![CDATA[<Pause>]]> Feel free to use that new feature to mark the Lunar Outpost and drop by for a mug of lunar sap wine anytime!</Page>
+			<Page>No pressure. Just have a few crates I've been saving to share with a friend. The longer you save them, the better they taste. <![CDATA[<Pause>]]> And they probably taste really good now.</Page>
+			<Page>I'd share some with you right now, but uh, we should probably do it another time.</Page>
+			<Page>When you're getting your space legs under you, it's a <![CDATA[<i>really</i>]]> bad idea to add lunar wine on top of that equation.</Page>
+		</Dialogue>
+</DialogueNode>
+
+</DialogueTree>

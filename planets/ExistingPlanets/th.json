@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "Timber Hearth",
+	"removeChildren":
+		[
+		
+		],
+
+
+	"Props": {
+		"details": [
+		
+		],
+		"translatorText": [
+			{
+				"rename":"vm recorder",
+				"position": {"x": -72.8238,"y": 126.8356,"z": -162.006},
+				"rotation": {"x": 55.6675,"y": 194.8619,"z": 352.8029},
+				"type": "recorder",
+				"isRelativeToParent": true,
+				"xmlFile": "planets/ExistingPlanets/translatortext/th mines.xml"
+			}
+		]
+	}
+}
