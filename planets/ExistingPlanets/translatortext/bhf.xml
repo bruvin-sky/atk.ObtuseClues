@@ -38,7 +38,7 @@
 		<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
-		<Text>POKE: Clary, we still have work to do! Yarrow, please seek anyone else, or use any object capable of warping to test your hypothesis instead!</Text>
+		<Text>POKE: Clary, we still have work to do! To Yarrow: please seek somebody else, or simply warp an object to test your hypothesis instead!</Text>
 	</TextBlock>
 
 	<ShipLogConditions>
