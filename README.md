@@ -23,11 +23,15 @@ The tabs below contain the changelog for the basegame and DLC changes respective
 
 * Added a recording to Brittle Hollow's north pole
 
+* Added a recording in the Timber Hearth Mines
+
 * Added some lines to a scroll at the Black Hole Forge
 
 * Added Nomai text to the pit on the path to the High Energy Lab
 
 * Added lines to Feldspar's recording on Dark Bramble
+
+* Added some more tutorial lines to Esker
 </details>
 
 <details>
@@ -37,9 +41,9 @@ The tabs below contain the changelog for the basegame and DLC changes respective
   
 * Added lamps along a dark rear path
   
-* Added a fireplace
+* Added a fireplace somewhere
 
-* Added a torch somewhere
+* Added a vision somewhere
   
 * Changed the shelf arrangement of some reels
   
