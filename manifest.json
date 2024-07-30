@@ -4,7 +4,7 @@
   "author": "atk",
   "name": "Clues for The Obtuse",
   "uniqueName": "atk.ObtuseClues",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "owmlVersion": "2.11.1",
   "dependencies": ["xen.NewHorizons"]
 }

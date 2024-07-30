@@ -43,7 +43,7 @@ The tabs below contain the changelog for the basegame and DLC changes respective
 
 * Added a vision somewhere
 
-* Added post-flood debris to a tower
+* Added debris to a tilting tower
   
 * Changed the shelf arrangement of some reels
   

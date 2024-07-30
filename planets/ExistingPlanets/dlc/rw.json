@@ -63,8 +63,8 @@
 			{
 				"rename":"blocker2",
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Structures_Zone2/HouseConnector2_Zone2/Geo_HouseConnector2_Zone2/Bridge_HouseConnector2_Intact/Bridge_IP_RWZ2_Connector1ToConnector2/",
-				"position": {"x": -1.3537,"y": -4.2343,"z": -6.3441},
-				"rotation": {"x": 29.3146,"y": 149.9831,"z": 35.6038},
+				"position": {"x": -2.6118,"y": -3.9907,"z": -6.5259},
+				"rotation": {"x": 38.7794,"y": 139.4225,"z": 14.4476},
 				"stretch": {"x":0.3,"y":1,"z":0.3},
 				"removeChildren": ["Railing","Railing_Col"],
 				"parentPath": "Sector_RingInterior/Sector_Zone2/Sector_DreamFireLighthouse_Zone2_AnimRoot/Geo_Lighthouse_Exterior_Zone2/Lighthouse_StiltTops",
